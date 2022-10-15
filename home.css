@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    background-color: white;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+/* overflow:visible; */
+}
+#logo > img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+#navbar{
+    /* background-color: rgb(182, 65, 65); */
+    width: 100%;
+}
+#navbar Ul{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+flex-wrap: wrap;
+}
+#navbar Ul >li>a{
+    text-decoration: none;
+    font-weight: 600;
+}
+#navbar Ul >li>a:hover{
+    color: rgb(47, 148, 179);
+}
+#navbar Ul >li{
+    list-style-type: none;
+    font-size: 24px;
+    margin-top: 12px;
+}
+#search{
+    display: flex;
+}
+#search > input{
+height: 30px;
+width: 210px;
+margin-top: 12px;
+}
+#search > button{
+    height: 36px;
+    margin-top: 12px;
+    text-decoration: none;
+}
+#land1 > h1{
+    text-align: center;
+    font-size: 24px;
+    font-family:cursive;
+    word-spacing: 14px;
+    color: rgb(155, 24, 24);
+}
+#land1 > img{
+width: 50%;
+height: 300px;
+display: grid;
+margin: 12px auto;
+}
+#land2 >h1{
+    font-size: 30px;
+text-align: center;
+letter-spacing: 2px;
+word-spacing: 6px;
+margin-top: 34px;
+}
+#mainpage {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+.page{
+    text-align: center;
+    width: 330px;
+    background-color: antiquewhite;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    padding: 32px;
+}
+.page > h3,p,button{
+    text-align: center;
+    margin: 6px;
+}
+.page > img{
+    width: 330px;
+    height: 210px;
+    border-radius: 15px;
+}
+.page > button > a{
+    text-decoration: none;
+    color: purple;
+    padding: 4px;
+    font-size: 14px;
+}
+.page > button > a:hover{
+    color: green;
+}
+
+/* section Three styling */
+
+#land3{
+    width: 100%;
+    margin-top: 33px;
+}
+#land3 > h1{
+text-align: center;
+text-decoration: underline;
+font-size: 30px;
+}
+
+/* form container */
+#formdiv{
+    /* width: 80%; */
+    background-color: rgb(2, 112, 112);
+    margin: 2px auto;
+}
+#formdiv > form{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+#formdiv > form >label{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 23px;
+}
+#formdiv > form >input{
+    width: 70%;
+    height: 23px;
+}

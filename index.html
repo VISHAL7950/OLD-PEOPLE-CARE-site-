@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo"> <img src="logo1920.jpg" alt=""></div>
+        <nav id="navbar">
+            <ul>
+                <Li><a href="home.html">Home</a></Li>
+                <Li><a href="aboutus.html">About us</a></Li>
+                <Li><a href="services.html">Services</a></Li>
+                <Li><a href="contact.html">Contact Us</a></Li>
+              
+        </nav>
+        <div id="search">
+            <input type="text" placeholder="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+    </header>
+    <section id="land1">
+        <img src="seniors-1505935_1920.jpg" alt="">
+        <h1>Caring and loving the golden-Ager</h1>
+    </section>
+    <section id="land2">
+        <h1> Services that make the lives of older people healthier and better </h1>
+        <div id="mainpage">
+
+            <div class="page">
+                <img src="mobility.jpg" alt="">
+                <h3>MOBILITY SERVICES</h3>
+                <p> Their are many free transport services  for old people's ,
+                    for mobility they can use wheel chair ,t-shaped stick also        </p>
+                <button><a href="services.html" id="moreinfo">Read More</a></button>
+            </div>
+
+            <div class="page">
+                <img src="GUIDANCE.jpg" alt="">
+                <h3>PROPER GUIDANCE</h3>
+                <p>Their should be proper health care guidance , medical guidance 
+                     Not only that they shou;d take medicines time to time
+                </p>
+                <button><a href="services.html " id="moreinfo">Read More</a></button>
+            </div>
+
+            <div class="page">
+                <img src="FOOD.jpg" alt="">
+                <h3>PROVIDE  HEALTHY FOOD</h3>
+                <p>The good food is the way for the good life .their are many Benefits of healthy food like it 
+                    May help you live longer,
+                   it Keeps your  skin, teeth, and eyes healthy,
+                  it Supports muscles,
+                </p>
+                <button><a href="services.html" id="moreinfo">Read More</a></button>
+            </div>
+
+            <div class="page">
+                <img src="NURSING.jpg" alt="">
+                <h3>PROVIDE  CARE TAKER</h3>
+                <p>Assistance in basic functioning,
+                    like mobility issues, walking, personal hygiene assistance – helps in bathing, toilet,dressing, grooming.                 </p>
+                <button><a href="services.html" id="moreinfo">Read More</a></button>
+            </div>
+
+            <div class="page">
+                <img src="LAUGHTER THERAPY.png" alt="">
+                <h3>PROVIDE LAUGHTER THERAPY</h3>
+                <p>Laughter is the best medicines . As we all know it reduces Many diseases, old people's can watch funny show  Or join Laughter Club.  
+                </p>
+                <button><a href="services.html" id="moreinfo">Read More</a></button>
+            </div>
+
+    </section>
+    <section id="land3">
+        <h1>Join Us</h1>
+        <div id="formdiv">
+            <form>
+                <label for="">Enter Your First Name</label><br>
+                <input type="text"><br>
+                <label for="">Enter your Middle Name</label><br>
+                <input type="text"><br>
+                <label for="">Enter Your Last Name</label><br>
+                <input type="text"><br>
+                <label for="">Enter Your Phone Number </label><br>
+                <input type="number"><br>
+                <label for="">Enter Your Address</label><br>
+                <textarea name="" id="" cols="20" rows="10" style="width: 70%; height: 70px;"></textarea><br>
+                <input type="submit" value="Create account" id="sub-mit"
+                    style="color: rgb(255, 255, 255); font-size: 20px; background:linear-gradient(rgb(255, 163, 163),rgb(62, 62, 131)); width: 220px; height:30px; margin-bottom: 6px; border-radius: 3px; border: none;">
+            </form>
+        </div>
+    </section>
+    <!-- javaScript -->
+    <script>
+        document.querySelector("#sub-mit").addEventListener("click", function (event) {
+            alert("Your Account have been created.")
+            event.preventDefault();
+        }, false);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
